@@ -7,8 +7,6 @@ interface IAuthPageProps {
 
 export const AuthPage: React.FC<IAuthPageProps> = () => {
   return (
-    <div className={classNames()}>
-      <UserAuthForm />
-    </div>
+    <UserAuthForm />
   )
 }
