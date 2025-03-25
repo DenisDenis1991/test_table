@@ -1,0 +1,14 @@
+:root {
+  // input sizes
+  --input-width: 100%;
+  --input-height: 100%;
+  --input-padding: 5px;
+  --input-margin: 5px 0; 
+
+  // color
+  --bg-color: #d9f7ff;
+  --border-color: #808080;
+  --color-gray-200: oklch(12% 9% 264deg / 8%);
+  --color-gray-500: oklch(12% 7.5% 264deg / 50%);
+  --color-gray-900: oklch(12% 5% 264deg / 90%);
+}
