@@ -1,4 +1,3 @@
-import classNames from 'classnames';
 import { UserAuthForm } from '@/widget';
 
 interface IAuthPageProps {
