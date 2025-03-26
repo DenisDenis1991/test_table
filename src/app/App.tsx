@@ -5,7 +5,7 @@ import { AuthPage, MainPageCompany } from '@/pages';
 import { loginFx } from '@/features/submitAuthForm/model';
 import { AuthRoute } from '@/shared';
 import { setErrorResponse } from '@/shared/httpClient';
-import { useState } from 'react';
+import { Suspense, useState } from 'react';
 import { Snackbar } from '@mui/material';
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
         <Route element={<AuthRoute />}>
           <Route
             path=''
-            element={<MainPageCompany />} />
+            element={<Suspense><MainPageCompany /></Suspense>} />
         </Route>
       </Routes></>
   )

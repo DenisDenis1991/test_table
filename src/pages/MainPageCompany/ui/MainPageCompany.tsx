@@ -7,7 +7,7 @@ interface IMainPageCompanyProps {
   className?: string
 }
 
-export const MainPageCompany: React.FC<IMainPageCompanyProps> = () => {
+const MainPageCompany: React.FC<IMainPageCompanyProps> = () => {
   return (
     <div className={classNames(cls.company)}>
       <ul className={classNames('table')}>
@@ -27,3 +27,5 @@ export const MainPageCompany: React.FC<IMainPageCompanyProps> = () => {
     </div>
   )
 }
+
+export default MainPageCompany
